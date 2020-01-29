@@ -69,4 +69,12 @@ BLYNK_WRITE(V3)   // Blynk Virtual Pin.
 6. What we want to do now is write this script to the D1 Mini. Every time we make a change to the script we'll have to do this. Next to the checkmark / tick in the top left corner is an arrow that will upload the script. Click this and wait until 'Done Compiling' is shown.
 
 ### Finishing Up
-1. With the script now loaded onto the D1 Mini we can now head back over to the Blynk app and try it out. In the top right hand corner of the progect they'll be a play button, click that and the project will be live. You can now toggle the button on and off.
+With the script now loaded onto the D1 Mini we can now head back over to the Blynk app and try it out. In the top right hand corner of the progect they'll be a play button, click that and the project will be live. You can now toggle the button on and off.
+
+### What Now?
+From here I need to design and 3D Print a housung and bracket for this to sit on the wall next to my Air Conditioner controller. In addition, I'd like to figure out how this could intigrate with Home Assistant (Hass.io) so it can see temprature readings throught my home and activate without my input.
+
+### Thanks To:
+Pete Knight on the Blynk Forums
+Dave Bodnar's [Video](https://www.youtube.com/watch?v=urd_OQhizIw&t=6s)
+
