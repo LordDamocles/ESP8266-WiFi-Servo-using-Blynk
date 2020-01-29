@@ -75,6 +75,6 @@ With the script now loaded onto the D1 Mini we can now head back over to the Bly
 From here I need to design and 3D Print a housung and bracket for this to sit on the wall next to my Air Conditioner controller. In addition, I'd like to figure out how this could intigrate with Home Assistant (Hass.io) so it can see temprature readings throught my home and activate without my input.
 
 ### Thanks To:
-Pete Knight on the Blynk Forums
-Dave Bodnar's [Video](https://www.youtube.com/watch?v=urd_OQhizIw&t=6s)
-
+- Pete Knight on the Blynk Forums
+- Dave Bodnar's [Video](https://youtu.be/urd_OQhizIw)
+- Bitluni's lab's [Video](https://youtu.be/migRN4P1wGI)
