@@ -4,7 +4,7 @@
 #include <BlynkSimpleEsp8266.h>
 #include <Servo.h>
 
-char auth[] = "replace_me";   //Blynk API key.
+char auth[] = "replace_me";   // Blynk Token key.
 char ssid[] = "replace_me";   // WiFi SSID (Name).
 char pass[] = "replace_me";   // WiFi Password.
 
@@ -26,7 +26,7 @@ void loop()
   delay(30000);    // LED OFF for 30 Seconds.
   Blynk.run();
 }
-BLYNK_WRITE(V3)   // Blynk Virtual Pin.
+BLYNK_WRITE(V3)   // Blynk Virtual Pin. Change this if needed.
 {
   servo.write(param.asInt());
 }
