@@ -1,4 +1,3 @@
-#define LED 2   // Define Blinking LED pin.
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -14,16 +13,11 @@ void setup()
 {
   Serial.begin(9600);
   Blynk.begin(auth, ssid, pass);
-  pinMode(LED, OUTPUT);
   servo.attach(15);   // D1 Mini - Using D8 (GPIO15) Pin. Change this if needed.
    }
 
 void loop()
 {
-  digitalWrite(LED, LOW);
-  delay(100);   // LED ON for 0.1 seconds.
-  digitalWrite(LED, HIGH);
-  delay(30000);    // LED OFF for 30 Seconds.
   Blynk.run();
 }
 BLYNK_WRITE(V3)   // Blynk Virtual Pin. Change this if needed.
