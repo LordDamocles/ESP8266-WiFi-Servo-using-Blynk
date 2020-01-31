@@ -53,13 +53,8 @@ char auth[] = "HERE";   //Blynk API key.
 char ssid[] = "HERE";    // WiFi SSID (Name).
 char pass[] = "HERE";   // WiFi Password.
 ```
-2. The remainder of the script can be left as-is. To ensure the ESP8266 wasn't dead, I added a blinking LED function. The LED will blink for 0.1 seconds every 30 seconds. You can change this by altering the value. These values are in miliseconds. So 30,000 miliseconds = 30 seconds.
-```
-  digitalWrite(LED, LOW);
-  delay(100);   // ON for 0.5 seconds.
-  digitalWrite(LED, HIGH);
-  delay(30000);    // OFF for 4 Seconds.
-```
+2. The remainder of the script can be left as-is. 
+
 3. The very last thing you might need to change is the Virtual Pin that was specified in the previous section. If you didn't use 'V3', then alter the section shown below and replace where it says V3 with what you used.
 ```
 BLYNK_WRITE(V3)   // Blynk Virtual Pin.
